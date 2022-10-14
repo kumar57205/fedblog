@@ -1,0 +1,27 @@
+.listing-section{
+    flex: 9;/*occupy 9 parts from total of 12parts so that sidebar can take 3parts*/
+    display: flex;
+    flex-wrap: wrap;/*try to equally plae the childrens on same row based on total width and push the rest to next row*/
+    margin: 20px;
+}
+.maincontent{
+    padding: 10px;
+    font-size: 20px;
+    color: whitesmoke;
+}
+.features{
+    margin-top: 15px ;
+}
+.features h2{
+    margin-bottom: 5px;
+}
+.example{
+    background-color: gray;
+    color: white;
+    width: 50%;
+    padding: 5px;
+    border-radius: 5px;
+  }
+.intro{
+    display: flex;
+}
